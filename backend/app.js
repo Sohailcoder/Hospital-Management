@@ -13,7 +13,7 @@ config({ path: "./config/config.env" });
 
 const app = express();
 
-app.use(cors({}));
+app.use(cors());
 
 // Body parsing middleware
 app.use(express.json());
