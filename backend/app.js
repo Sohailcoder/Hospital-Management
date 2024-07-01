@@ -13,7 +13,10 @@ config({ path: "./config/config.env" });
 
 const app = express();
 
-app.use(cors());
+const corsOptions = {
+    origin: 'https://hospital-management-dashboard-xihy.onrender.com', // Allow only your frontend origin
+    credentials: true, // Allow credentials
+  };
 
 // Body parsing middleware
 app.use(express.json());
