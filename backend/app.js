@@ -14,7 +14,7 @@ config({ path: "./config/config.env" });
 const app = express();
 
 const corsOptions = {
-    origin: 'https://hospital-management-dashboard-xihy.onrender.com', // Allow only your frontend origin
+    origin: 'https://hospital-management-backend-qb78.onrender.com', // Allow only your frontend origin
     credentials: true, // Allow credentials
   };
 
