@@ -18,6 +18,8 @@ const corsOptions = {
     credentials: true, // Allow credentials
   };
 
+app.use(cors(corsOptions));
+
 // Body parsing middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
