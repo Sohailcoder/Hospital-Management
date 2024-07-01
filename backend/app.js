@@ -16,8 +16,7 @@ const app = express();
 const corsOptions = {
   origin: [
     'https://hospital-management-backend-qb78.onrender.com',
-    'http://localhost:5173',
-    'http://localhost' // Add additional localhost if needed
+    'http://localhost:5173'  // Add additional localhost if needed
   ],
   credentials: true, // Allow credentials
 };
