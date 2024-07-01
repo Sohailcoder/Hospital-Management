@@ -14,9 +14,14 @@ config({ path: "./config/config.env" });
 const app = express();
 
 const corsOptions = {
-    origin: 'https://hospital-management-backend-qb78.onrender.com', // Allow only your frontend origin
-    credentials: true, // Allow credentials
-  };
+  origin: [
+    'https://hospital-management-backend-qb78.onrender.com',
+    'http://localhost:5173',
+    'http://localhost' // Add additional localhost if needed
+  ],
+  credentials: true, // Allow credentials
+};
+
 
 app.use(cors(corsOptions));
 
