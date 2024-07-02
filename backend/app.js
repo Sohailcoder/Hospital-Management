@@ -17,7 +17,7 @@ const corsOptions = {
   origin: [
     'https://hospital-management-dashboard-xihy.onrender.com',
     'http://localhost:5173',
-    'https://homepage-patient.netlify.app',
+    'https://homepage-patient.netlify.app'
   ],
   credentials: true, // Allow credentials
 };
