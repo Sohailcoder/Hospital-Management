@@ -15,7 +15,7 @@ const app = express();
 
 const corsOptions = {
   origin: [
-    'https://hospital-management-backend-qb78.onrender.com',
+    'https://hospital-management-dashboard-xihy.onrender.com',
     'http://localhost:5173',
     'https://6683251aa39c308c9f499366--incredible-capybara-55a3fb.netlify.app',
   ],
